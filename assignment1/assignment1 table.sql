@@ -30,3 +30,13 @@ CREATE TABLE personeval (
    ename VARCHAR2(10)
  , eval VARCHAR2(1)
 );
+
+CREATE TABLE tmp (
+   empno    NUMBER(4) NOT NULL
+ , ename    VARCHAR2(10) 
+ , job      VARCHAR2(9)
+ , hiredate DATE
+ , sal      NUMBER(7,2)
+ , deptno   NUMBER(2)
+ , grade    NUMBER
+);
